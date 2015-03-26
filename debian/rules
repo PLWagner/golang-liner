@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_GOPKG := github.com/peterh/liner
+
+%:
+	dh $@ --buildsystem=golang --with=golang

@@ -1,0 +1,21 @@
+Source: golang-liner
+Section: devel
+Priority: extra
+Homepage: https://github.com/peterh/liner
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Pierre-Luc Wagner <pierre-luc@wagner.qc.com>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-go
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-liner.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-go/packages/golang-liner.git;a=summary
+
+Package: golang-liner-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Command line editor with history
+  Liner is a command line editor with history. It was inspired by linenoise;
+  everything Unix-like is a VT100 (or is trying very hard to be). If your
+  terminal is not pretending to be a VT100, change it. Liner also support
+  Windows.

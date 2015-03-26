@@ -1,0 +1,5 @@
+golang-liner (0.0~git20150318-1) unstable; urgency=low
+
+  * Initial release. (Closes: #765005)
+
+ -- Pierre-Luc Wagner (PLW) <pierre-luc@wagner.qc.com>  Thu, 26 Mar 2015 15:59:13 -0400
